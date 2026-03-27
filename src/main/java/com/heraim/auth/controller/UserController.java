@@ -1,6 +1,6 @@
 package com.heraim.auth.controller;
 
-import com.heraim.auth.model.User;
+
 import com.heraim.auth.payload.UserDTO;
 import com.heraim.auth.payload.UserResponse;
 import com.heraim.auth.service.UserService;
@@ -8,8 +8,6 @@ import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @RestController
 public class UserController {
